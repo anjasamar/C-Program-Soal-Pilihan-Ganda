@@ -10,7 +10,7 @@ int main()
 
 //Bagian Data Store
 char a,b,c,d;
-int b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,total,tbenar,tsalah,tb;
+int b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,total,tbenar,tb;
 int ben1,ben2,ben3,ben4,ben5,ben6,ben7,ben8,ben9,ben10;
 string nama;
 string kelas;
