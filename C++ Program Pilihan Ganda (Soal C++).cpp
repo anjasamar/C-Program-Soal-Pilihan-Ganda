@@ -12,7 +12,6 @@ int main()
 char a,b,c,d;
 int b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,total,tbenar,tsalah,tb;
 int ben1,ben2,ben3,ben4,ben5,ben6,ben7,ben8,ben9,ben10;
-int sal1,sal2,sal3,sal4,sal5,sal6,sal7,sal8,sal9,sal10;
 string nama;
 string kelas;
 string nim;
@@ -49,7 +48,6 @@ string keterangan;
       if(a=='a')
       {
       ben1=+1;
-      sal1=-1;
       b1=10;
       cout<<"Jawaban Benar\nNilai = "<<b1<<"\n\n\n";
       }
@@ -57,7 +55,6 @@ string keterangan;
       else
       {
       ben1=-1;
-      sal1=+1;
       b1=-5;
 //Bagian Output Hasil Jawaban Soal
       cout<<"Jawaban Salah\nNilai = "<<b1<<"\n\n\n";
@@ -77,14 +74,12 @@ string keterangan;
       if(c=='c')
       {
       ben2=+1;
-      sal2=-1;
       b2=10;
       cout<<"Jawaban Benar\nNilai = "<<b2<<"\n\n\n";
       }
       else
       {
       ben2=-1;
-      sal2=+1;
       b2=-5;
       cout<<"Jawaban Salah\nNilai = "<<b2<<"\n\n";
       }
@@ -104,14 +99,12 @@ string keterangan;
       if (a == 'a')
       {
       ben3=+1;
-      sal3=-1;
       b3=10;
       cout<<"Jawaban Benar\nNilai = "<<b3<<"\n\n\n";
       }
       else
       {
       ben3=-1;
-      sal3=+1;
       b3=-5;
       cout<<"Jawaban Salah\nNilai = "<<b3<<"\n\n\n";
       }
@@ -130,14 +123,12 @@ string keterangan;
       if(b=='b')
       {
       ben4=+1;
-      sal4=-1;
       b4=10;
       cout<<"Jawaban Benar\nNilai = "<<b4<<"\n\n\n";
       }
       else
       {
       ben4=-1;
-      sal4=+1;
       b4=-5;
       cout<<"Jawaban Salah\nNilai = "<<b4<<"\n\n\n\n";
       }
@@ -156,14 +147,12 @@ string keterangan;
       if(b=='b')
       {
       ben5=+1;
-      sal5=-1;
       b5=10;
       cout<<"Jawaban Benar\nNilai = "<<b5<<"\n\n\n";
       }
       else
       {
       ben5=-1;
-      sal5=+1;
       b5=-5;
       cout<<"Jawaban Salah\nNilai = "<<b5<<"\n\n\n\n";
       }
@@ -182,14 +171,12 @@ string keterangan;
       if(d=='d')
       {
       ben6=+1;
-      sal6=-1;
       b6=10;
       cout<<"Jawaban Benar\nNilai = "<<b6<<"\n\n\n";
       }
       else
       {
       ben6=-1;
-      sal6=+1;
       b6=-5;
       cout<<"Jawaban Salah\nNilai = "<<b6<<"\n\n\n\n";
       }
@@ -208,14 +195,12 @@ string keterangan;
       if(c=='c')
       {
       ben7=+1;
-      sal7=-1;
       b7=10;
       cout<<"Jawaban Benar\nNilai = "<<b7<<"\n\n\n";
       }
       else
       {
       ben7=-1;
-      sal7=+1;
       b7=-5;
       cout<<"Jawaban Salah\nNilai = "<<b7<<"\n\n\n\n";
       }
@@ -234,14 +219,12 @@ string keterangan;
       if(d=='d')
       {
       ben8=+1;
-      sal8=-1;
       b8=10;
       cout<<"Jawaban Benar\nNilai = "<<b8<<"\n\n\n";
       }
       else
       {
       ben8=-1;
-      sal8=+1;
       b8=-5;
       cout<<"Jawaban Salah\nNilai = "<<b8<<"\n\n\n\n";
       }
@@ -260,14 +243,12 @@ string keterangan;
       if(b=='b')
       {
       ben9=+1;
-      sal9=-1;
       b9=10;
       cout<<"Jawaban Benar\nNilai = "<<b9<<"\n\n\n";
       }
       else
       {
       ben9=-1;
-      sal9=+1;
       b9=-5;
       cout<<"Jawaban Salah\nNilai = "<<b9<<"\n\n\n\n";
       }
@@ -286,14 +267,12 @@ string keterangan;
       if(d=='d')
       {
       ben10=+1;
-      sal10=-1;
       b10=10;
       cout<<"Jawaban Benar\nNilai = "<<b10<<"\n\n\n";
       }
       else
       {
       ben10=-1;
-      sal10=+1;
       b10=-5;
       cout<<"Jawaban Salah\nNilai = "<<b10<<"\n\n\n\n";
       }
@@ -303,7 +282,6 @@ string keterangan;
 //Bagian Penjumlahan Nilai Dan Hasil Seluruh Jawaban Soal
    total = b1+b2+b3+b4+b5+b6+b7+b8+b9+b10;
    tbenar = ben1+ben2+ben3+ben4+ben5+ben6+ben7+ben8+ben9+ben10;
-   tsalah = sal1+sal2+sal3+sal4+sal5+sal6+sal7+sal8+sal9+sal10;
    tb = tbenar;
 
 //Bagian Keterangan Nilai Akhir
