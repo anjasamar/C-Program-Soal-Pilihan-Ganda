@@ -1,3 +1,9 @@
-# C-Program-Soal-Pilihan-Ganda
-C++ Program Soal Pilihan Ganda Beserta Data Insert Dan Data Koreksi
-10 Soal, Jika Anda Ingin Berkontribusi Dan Menambah Soal Dan Materi, Dipersilakan.
+# C++ - Program-Soal-Pilihan-Ganda</br>
+# -----------------------------------------------------------------------------------------</br>
+-C++ Program Soal Pilihan Ganda Beserta Data Insert Dan Data Koreksi</br>
+-10 Soal, Jika Anda Ingin Berkontribusi Dan Menambah Soal Dan Materi, Dipersilakan.</br>
+-Input Data Mahasiswa</br>
+-Jawab Pilihan Ganda</br>
+-Auto Koreksi Soal</br>
+-Auto Deskripsi Nilai</br>
+# -----------------------------------------------------------------------------------------</br>
