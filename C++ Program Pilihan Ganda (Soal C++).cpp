@@ -10,7 +10,7 @@ int main()
 
 //Bagian Data Store
 char a,b,c,d;
-int b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,total,tbenar,tsalah;
+int b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,total,tbenar,tsalah,tb;
 int ben1,ben2,ben3,ben4,ben5,ben6,ben7,ben8,ben9,ben10;
 int sal1,sal2,sal3,sal4,sal5,sal6,sal7,sal8,sal9,sal10;
 string nama;
@@ -304,12 +304,13 @@ string keterangan;
    total = b1+b2+b3+b4+b5+b6+b7+b8+b9+b10;
    tbenar = ben1+ben2+ben3+ben4+ben5+ben6+ben7+ben8+ben9+ben10;
    tsalah = sal1+sal2+sal3+sal4+sal5+sal6+sal7+sal8+sal9+sal10;
+   tb = tbenar;
 
 //Bagian Keterangan Nilai Akhir
-   if(total > 60){keterangan = "Cukup";}
-   if(total > 75){keterangan = "Baik";}
-   if(total > 85){keterangan = "Baik Sekali";}   
-   if(total < 60){keterangan = "Kurang";}
+   if(total > 60){keterangan = "Cukup (C)";}
+   if(total > 75){keterangan = "Baik (B)";}
+   if(total > 85){keterangan = "Baik Sekali (A)";}   
+   if(total < 60){keterangan = "Kurang (D)";}
 
 //Bagian Output Informasi Keseluruhan
     cout<<endl;
@@ -324,9 +325,7 @@ string keterangan;
 	cout<<"------------------------------"<<endl;
     cout<<"Keterangan Hasil Nilai 	= "<<keterangan<<endl;
     cout<<"Total Nilai 			= "<<total<<endl;
-    cout<<"Jawaban Benar 			= "<<tbenar<<endl;
-    cout<<"Jawaban Salah			= "<<tsalah<<endl;
+    cout<<"Jawaban Benar 			= "<<tb<<" Dari 10 Soal"<<endl;
 	cout<<"------------------------------"<<endl;
-//Akhir Program
 return 0;
 }
